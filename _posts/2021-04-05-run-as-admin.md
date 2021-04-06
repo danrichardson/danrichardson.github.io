@@ -3,13 +3,9 @@ title: "FreePDX Blog - getting it started"
 categories:
   - Blog
 tags:
-  - link
-  - Post Formats
-link: https://github.com
+  - technology
 ---
-# FreePDX Blog
-
-I wanted to create a blog.  I have a few things I'd like to accomplish with it:
+I'm creating a blog, and I'd like to accomplish a few things with it:
 
 - **Learn Stuff** - I've spent most of my programming career either on Windows Desktop development, and I wanted to do some front-end personal devleopment.  Writing a blog from scratch accomplishes that.
 - **Explore technology** - How ~~bad~~ difficult can Node.js be?  TypeScript? Sure!  Angular, BootStrap -- all the things.  There are a million ways solve a problem or deliver a project, and I want to see which ones are useful, and which are painful so that I can be better informed about how I go about solving problems moving forward.
@@ -22,4 +18,4 @@ Since I have a ThinkPad, I'm running Windows.  To get Jekyll up and running, I'm
 - I'm hosting on [GitHub Pages](https://pages.github.com/) for now, since it's really easy to get that up and running, and backed by Git version controlling.  It's pretty nice.
 - Getting Jekyll/Ruby/WSL to cooperate with each other was a bit of a head-scratcher, but it's not too hard.  There are a lot of WSL specific sites with info, but none really worked well.  In the end, I installed Ubuntu 20.04 in WSL2 from the Microsoft Store, and followed a [Ubuntu Guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-jekyll-development-site-on-ubuntu-20-04)
 - There's a special trick that I haven't seen documented - you MUST run the Ubuntu shell as administrator, otherwise you will fail running the site locally with `bundle exec jekyll serve`
-[]
+<img src="/assets/images/RunAsAdmin.jpg" alt="Run As Admin screenshot" width="500"/>
